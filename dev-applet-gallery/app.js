@@ -136,3 +136,24 @@ function Odd_Even(number){
   }
   
 }
+
+// console.log(Odd_Even(9));
+
+
+// ii. Determine a number is it is prime number
+
+function Prime_num(num){
+
+  if(num <= 1) 
+    return "The number " + num + " is not a prime number ";
+
+  for(let i = 2; i < num; i++) {
+
+    if (num % i === 0) {
+      return "The number " + num + " is not a prime number ";
+    }
+  }
+
+  return "The number " + num + " is a prime number";
+
+}
