@@ -38,3 +38,22 @@ function Calculate(num1 , num2 , Operators){
   
 }
 
+// console.log(Calculate(12, 11, '*'));
+
+// c. Conditional Statement
+// i. if else
+
+function If_else(user_age){
+
+let age_limit = 18;
+
+
+if (user_age === age_limit || user_age > age_limit){
+
+  return "You're Allowed to enter the website because you're " + user_age + " yrs old =)";
+
+}else{
+  return "Youre Not Allowed to enter this this website because you're " + user_age + " yrs old and it is below the age limit";
+}
+}
+
