@@ -117,3 +117,22 @@ function Do_while_loop(){
   
 }
 
+
+// console.log(For_loop());
+// console.log(While_loop());
+// console.log(Do_while_loop());
+
+// e. Functional Programming
+// i. Determine a number if it is a odd or even
+
+function Odd_Even(number){
+
+
+
+  if (number%2 === 0 ) {
+     return "The number " + number +  " is an Even number";
+  }else {
+     return "The number " + number +  " is an Odd number";
+  }
+  
+}
