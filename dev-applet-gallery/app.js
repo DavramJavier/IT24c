@@ -57,3 +57,33 @@ if (user_age === age_limit || user_age > age_limit){
 }
 }
 
+// console.log(If_else(19));
+
+// ii. switch
+
+function Switch_statement(age){
+
+
+let age_category;
+
+switch(true) {
+
+  case (age >= 0 && age <= 12):
+    age_category = "Your age belongs to the CHILD age category";
+  break;
+
+  case (age >= 13 && age <= 18):
+    age_category = "Your age belongs to the TEEN age category";
+  break;
+
+  case (age >= 19):
+    age_category = "Your age belongs to the ADULT age category";
+  break;
+
+  default:
+    age_category = "Invalid Age"
+
+}
+return age_category;
+
+}
