@@ -157,3 +157,25 @@ function Prime_num(num){
   return "The number " + num + " is a prime number";
 
 }
+
+// console.log(Prime_num(10));
+
+
+
+// iii. Determine a string if it is a palindrome
+
+function Palindrome_Identifier(string){
+
+  let reversed_string = string.split('').reverse().join('');
+
+  if (string === reversed_string) {
+
+    return "The word " + string + " is a Palindrome";
+  }else {
+
+    return "The word " + string + " is not a Palindrome";
+  }
+
+}
+
+// console.log(Palindrome_Identifier("hehe"));
