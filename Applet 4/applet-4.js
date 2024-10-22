@@ -35,4 +35,24 @@ class StudentList {
         const studentSearchBar = document.getElementById('studentSearchBar');
         const studentSearchListContainer = document.getElementById('studentSearchList');
 
-        
+        studentSearchBar.addEventListener('input', () => {
+            this.filterStudents(studentSearchBar.value, studentSearchListContainer);
+        });
+
+        this.renderStudentList(this.students, studentSearchListContainer);
+    }
+
+    filterStudents(query, searchListContainer) {
+        const filteredStudents = this.students.filter(student => {
+            const fullName = `${student.student_name} ${student.student_program}`;
+            return fullName.toLowerCase().includes(query.toLowerCase());
+        });
+
+        searchListContainer.innerHTML = '';
+
+        this.renderStudentList(filteredStudents, searchListContainer);
+    }
+    
+}
+
+const studentList = new StudentList
