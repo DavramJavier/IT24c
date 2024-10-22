@@ -31,4 +31,8 @@ class StudentList {
         ).join('');
     }
 
-    
+    bindSearchEvent() {
+        const studentSearchBar = document.getElementById('studentSearchBar');
+        const studentSearchListContainer = document.getElementById('studentSearchList');
+
+        
