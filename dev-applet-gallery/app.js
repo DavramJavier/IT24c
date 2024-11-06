@@ -14,6 +14,7 @@ let String_Occupation = "Student";
 
 // b. Arithmetic and Logical Operators
 
+
 function Calculate(num1 , num2 , Operators){
 
   if (Operators === '+') {
