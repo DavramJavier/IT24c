@@ -14,6 +14,7 @@ fetch('applet.json')
     const appletContainer = document.getElementById('appletContainer');
     appletContainer.innerHTML = '';
   
+  
 
     applets.forEach(applet => {
         const card = document.createElement('div');
