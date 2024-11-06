@@ -1,0 +1,33 @@
+.title {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia;
+  }
+  
+  
+  .applet-flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 100%;
+    align-items: stretch;
+  }
+  
+  .card {
+    width: 15rem;
+    margin: 0.5rem;
+  }
+  
+  body{
+    background: linear-gradient(to right, rgb(68, 67, 68), rgb(255, 255, 255));
+  }
+  
+  .btn{
+    background: linear-gradient(to right, rgb(68, 68, 68), rgb(255, 255, 255));
+    color: white;
+  }

@@ -1,28 +1,39 @@
 [
     {
-        "title1": "Applet 1 - Basic Events",
+        "title1": "Applet - 1",
+        "title2": "Basic Events",
         "description": "This is the applet 1, this will take you to a website that allows you to input a text and it automatically shows the text and it also have a display button that when you click it it will dispaly what you just typed",
-        "imageUrl": "",
-        "link": "/Applet 1/applet-1.html"
+        "imageUrl": "https://w0.peakpx.com/wallpaper/420/795/HD-wallpaper-marshmallow-dark-black.jpg",
+        "link": "/Applet 1/applet1.html"
     },
     {
-        "title1": "Applet 2 - Leaflet Map",
+        "title1": "Applet - 2",
+        "title2": "Leaflet Map",
         "description": "This is the applet 2, this will take you to a website or an applet that renders a Leaflet and Openstreetmap interactive map..",
-        "imageUrl": "",
+        "imageUrl": "https://w0.peakpx.com/wallpaper/420/795/HD-wallpaper-marshmallow-dark-black.jpg",
         "link": "/Applet 2/index2.html"
     },
     {
-        "title1": "Applet 3 - Event Logger",
+        "title1": "Applet - 3",
+        "title2": "Event Logger",
         "description": "This is the applet 3, this will take you to a website or applet that consists of s button and two disply element that consist of the things such as the thing that shows the logs and date, and the one that shows the total number of logs.",
-        "imageUrl": "",
+        "imageUrl": "https://w0.peakpx.com/wallpaper/420/795/HD-wallpaper-marshmallow-dark-black.jpg",
         "link": "/Applet 3/index.html"
     },
     {
-        "title1": "Applet 4 - Dynamic Elements",
+        "title1": "Applet - 4",
+        "title2": "Dynamic Elements",
         "description": "This is the applet 4, this will take you to a website that have an application that applies dynamic elements such as rendering DOM elements from a list",
-        "imageUrl": "",
+        "imageUrl": "https://w0.peakpx.com/wallpaper/420/795/HD-wallpaper-marshmallow-dark-black.jpg",
         "link": "/Applet 4/index4.html"
+    },
+    {
+        
+        "title1": "Applet - 5",
+        "title2": "Open Weather",
+        "description": "This is the applet 5, this will take you to the applet that have an application with the basic usage of the Openweather API",
+        "imageUrl": "https://w0.peakpx.com/wallpaper/420/795/HD-wallpaper-marshmallow-dark-black.jpg",
+        "link": "/Applet 5/index.html"
     }
+    
   ]
-
-  

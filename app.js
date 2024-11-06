@@ -26,23 +26,35 @@ fetch('applet.json')
 
         const cardBody = document.createElement('div');
         cardBody.classList.add('card-body');
+        cardBody.style.minHeight = '200px';
     
-        const title = document.createElement('h5');
-        title.classList.add('card-title');
-        title.textContent = applet.title;
+        const title1 = document.createElement('h5');
+        title1.classList.add('card-title');
+        title1.textContent = applet.title1;
+      
+
+        const title2 = document.createElement('h5');
+        title2.classList.add('card-title');
+        title2.textContent = applet.title2;
+        
     
         const text = document.createElement('p');
         text.classList.add('card-text');
         text.textContent = applet.description;
     
         const button = document.createElement('a');
-        button.classList.add('btn', 'btn-primary');
+        button.classList.add('btn');
         button.href = applet.link;
         button.textContent = 'Go to Applet';
+        button.style.background = 'linear-gradient(to right, purple, #00f)';
+        button.style.color = 'white';
+
+      
     
-        cardBody.appendChild(title);
-        cardBody.appendChild(text);
+        cardBody.appendChild(title1);
+        cardBody.appendChild(title2);
         cardBody.appendChild(button);
+        cardBody.appendChild(text);
         card.appendChild(img);
         card.appendChild(cardBody);
         appletContainer.appendChild(card);
@@ -54,7 +66,8 @@ fetch('applet.json')
 document.getElementById('searchButton').addEventListener('click', function () {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
     const filteredApplets = applets.filter(applet =>
-      applet.title.toLowerCase().includes(searchInput)
+      applet.title1.toLowerCase().includes(searchInput) ||
+      applet.title2.toLowerCase().includes(searchInput)
     );
 
 
