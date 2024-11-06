@@ -62,4 +62,9 @@ class TodoList {
         this.addButton.textContent = 'Update';
     }
 
-   
+    resetEditing() {
+        this.editingIndex = -1;
+        this.addButton.textContent = 'Add';
+    }
+    
+}
